@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+void main(){
+    const double PI = 3.14;
+    const char JENIS_KELAMIN = 'L';
+    const int VERSI = 13;
+
+    printf("isi konstanta PI adalah %f\n", PI);
+    printf("isi konstanta JENIS KELAMIN adalah %c\n", JENIS_KELAMIN);
+    printf("isi konstanta VERSI adalah %d\n", VERSI);
+}
