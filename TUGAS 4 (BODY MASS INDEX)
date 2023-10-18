@@ -21,10 +21,10 @@ int main(){
 
         printf("Nilai Body Mass Index %s: %f\n", nama_lakilaki, bmi_lakilaki);
 
-        if(17<=bmi_lakilaki<=23){
-            printf("Selamat, Berat Badan %s Ideal.\n", nama_lakilaki);
+        if(17<=bmi_lakilaki&&bmi_lakilaki<=23){
+            printf("Selamat, Berat Badan %s Ideal.\n\n", nama_lakilaki);
         }else{
-            printf("Maaf, Berat Badan %s Kurang Ideal.\n", nama_lakilaki);
+            printf("Maaf, Berat Badan %s Kurang Ideal.\n\n", nama_lakilaki);
         }
         break;
 
@@ -37,11 +37,16 @@ int main(){
 
         printf("Nilai Body Mass Index %s: %f\n", nama_perempuan, bmi_perempuan);
 
-        if(18<=bmi_perempuan<=25){
-            printf("Selamat, Berat Badan %s Ideal.\n", nama_perempuan);
+        if(18<=bmi_perempuan&&bmi_perempuan<=25){
+            printf("Selamat, Berat Badan %s Ideal.\n\n", nama_perempuan);
         }else{
-            printf("Maaf, Berat Badan %s Kurang Ideal.\n", nama_perempuan);
+            printf("Maaf, Berat Badan %s Kurang Ideal.\n\n", nama_perempuan);
         }
         break;
+
+        default:
+        printf("Maaf, Pilihan Anda Tidak Tersedia\n\n");
+        break;
     }
+    main();
 }
