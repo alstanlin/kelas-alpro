@@ -14,5 +14,5 @@ void main(){
     printf("Hasil x-y: %i\n", x-y);
     printf("Hasil x*y: %i\n", x*y);
     printf("Hasil x/y: %i\n", x/y);
-
+    
 }
